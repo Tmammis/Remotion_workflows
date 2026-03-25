@@ -1,0 +1,23 @@
+{
+  "name": "remotion-video-editing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx remotion render src/index.ts CaptionedVideo ~/Desktop/output.mp4 --codec h264"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@remotion/cli": "^4.0.439",
+    "@remotion/google-fonts": "^4.0.439",
+    "@remotion/media-utils": "^4.0.439",
+    "remotion": "^4.0.439"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "typescript": "^6.0.2"
+  }
+}

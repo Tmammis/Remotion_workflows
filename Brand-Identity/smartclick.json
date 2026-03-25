@@ -1,0 +1,155 @@
+{
+    "colorScheme": "light",
+    "fonts": [
+        {
+            "family": "Inter",
+            "role": "heading"
+        },
+        {
+            "family": "Sora",
+            "role": "body"
+        },
+        {
+            "family": "Times New Roman",
+            "role": "unknown"
+        },
+        {
+            "family": "Roboto",
+            "role": "unknown"
+        },
+        {
+            "family": "Helvetica Neue",
+            "role": "unknown"
+        }
+    ],
+    "colors": {
+        "primary": "#FFFFFF",
+        "accent": "#2CB262",
+        "background": "#FFFFFF",
+        "textPrimary": "#FFFFFF",
+        "link": "#0C4A2D"
+    },
+    "typography": {
+        "fontFamilies": {
+            "primary": "Sora",
+            "heading": "Montserrat"
+        },
+        "fontStacks": {
+            "heading": [
+                "Montserrat"
+            ],
+            "body": [
+                "Times New Roman"
+            ],
+            "paragraph": [
+                "Sora"
+            ]
+        },
+        "fontSizes": {
+            "h1": "65px",
+            "h2": "18px",
+            "body": "16px"
+        }
+    },
+    "spacing": {
+        "baseUnit": 4,
+        "borderRadius": "5px"
+    },
+    "components": {
+        "input": {
+            "background": "#FFFFFF",
+            "textColor": "#18192B",
+            "borderColor": "#797878",
+            "borderRadius": "15px",
+            "borderRadiusCorners": {
+                "topLeft": "15px",
+                "topRight": "15px",
+                "bottomRight": "15px",
+                "bottomLeft": "15px"
+            },
+            "shadow": "rgb(255, 255, 255) 0px 0px 0px 0px"
+        },
+        "buttonPrimary": {
+            "background": "#0C4A2D",
+            "textColor": "#FFFFFF",
+            "borderColor": "#FFFFFF",
+            "borderRadius": "50px",
+            "borderRadiusCorners": {
+                "topLeft": "50px",
+                "topRight": "50px",
+                "bottomRight": "50px",
+                "bottomLeft": "50px"
+            },
+            "shadow": "none"
+        },
+        "buttonSecondary": {
+            "background": "#BEF7D0",
+            "textColor": "#013D1B",
+            "borderColor": "#BEF7D0",
+            "borderRadius": "50px",
+            "borderRadiusCorners": {
+                "topLeft": "50px",
+                "topRight": "50px",
+                "bottomRight": "50px",
+                "bottomLeft": "50px"
+            },
+            "shadow": "none"
+        }
+    },
+    "images": {
+        "logo": "https://images.leadconnectorhq.com/image/f_webp/q_80/r_1200/u_https://assets.cdn.filesafe.space/8ej7rHnmRBGmTNBzbNSJ/media/69407f70cadb5e4b87d719ca.png",
+        "favicon": "https://storage.googleapis.com/msgsndr/8ej7rHnmRBGmTNBzbNSJ/media/6807c76ed46db1447ec94be8.png",
+        "ogImage": null,
+        "logoHref": "https://smartclick.se",
+        "logoAlt": "https://smartclick.se"
+    },
+    "__llm_logo_reasoning": {
+        "selectedIndex": 0,
+        "reasoning": "Selected #0 because it is visible, located in the header, links to the homepage, and matches the brand inferred from the URL and page title.",
+        "confidence": 0.9,
+        "source": "llm"
+    },
+    "__llm_button_reasoning": {
+        "primary": {
+            "index": 2,
+            "text": "Boka kostnadsfri konsultation",
+            "reasoning": "Button #2 ('Boka kostnadsfri konsultation') uses the brand color #0C4A2D, which is vibrant and action-oriented, making it the primary CTA."
+        },
+        "secondary": {
+            "index": 0,
+            "text": "Boka demo",
+            "reasoning": "Button #0 ('Boka demo') has a different background color (#BEF7D0) and serves as a secondary action, complementing the primary CTA."
+        },
+        "confidence": 0.95
+    },
+    "personality": {
+        "tone": "professional",
+        "energy": "medium",
+        "targetAudience": "businesses looking for digital solutions"
+    },
+    "designSystem": {
+        "framework": "custom",
+        "componentLibrary": ""
+    },
+    "confidence": {
+        "buttons": 0.95,
+        "colors": 0.9,
+        "overall": 0.925
+    },
+    "__llm_metadata": {
+        "logoSelection": {
+            "llmCalled": true,
+            "llmSucceeded": true,
+            "finalSource": "llm",
+            "rawLogoSelection": {
+                "selectedLogoIndex": 0,
+                "selectedLogoReasoning": "Selected #0 because it is visible, located in the header, links to the homepage, and matches the brand inferred from the URL and page title.",
+                "confidence": 0.9
+            }
+        },
+        "buttonClassification": {
+            "llmCalled": true,
+            "llmSucceeded": true
+        }
+    }
+}
